@@ -1,0 +1,36 @@
+{
+  "name": "@writetome51/array-remove-all-before",
+  "version": "1.0.0",
+  "description": "2 functions that remove all items that come before a certain value in the array.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/array-remove-all-before.git"
+  },
+  "bugs": {
+    "url": "https://github.com/writetome51/array-remove-all-before/issues"
+  },
+  "homepage": "https://github.com/writetome51/array-remove-all-before#readme",
+  "keywords": [
+    "array",
+    "manipulation",
+    "remove",
+    "everything",
+    "all",
+    "after",
+    "before",
+    "value"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "devDependencies": {
+    "@writetome51/arrays-match": "~1.0.5"
+  },
+  "dependencies": {
+    "@writetome51/array-get-and-remove-all-before": "~1.1.2"
+  }
+}
